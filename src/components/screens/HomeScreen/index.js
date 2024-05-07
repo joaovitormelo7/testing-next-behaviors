@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Footer from '../../Link/patterns/Footer'
 import Link from '../../Link'
 import { theme } from '../../../../src/theme/theme';
@@ -96,6 +97,9 @@ function SideImage() {
 export default function HomeScreen() {
   return (
     <Box>
+      <Head>
+        <title>Home - Alura Cases Campanha</title>
+      </Head>
       <Box
         as="main"
         styleSheet={{
